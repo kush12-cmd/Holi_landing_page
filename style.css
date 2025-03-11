@@ -195,3 +195,47 @@ section{
     line-height: 25px;
     margin-bottom: 10px;
 }
+.reviw h2{
+    font-size: 22px;
+    color: #000;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+/* contact section */
+.contact{
+    background-color: #d9c5e1;
+   text-transform: capitalize;
+
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(160px, auto));
+    gap: 3rem;
+}
+.contact-info h4{
+    color: #212529;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.contact-info p{
+    color: #565656;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.contact-info p:hover{
+    color: red;
+}
+.social-icon i{
+    color: #565656;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.social-icon i:hover{
+    transform: scale(1.4);
+}
+
